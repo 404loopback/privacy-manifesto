@@ -1,0 +1,29 @@
+title: Privacy Manifesto
+description: >-
+  Blog Jekyll minimal et propre, prêt pour GitHub Pages.
+baseurl: ""
+url: ""
+lang: fr
+timezone: Europe/Paris
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page

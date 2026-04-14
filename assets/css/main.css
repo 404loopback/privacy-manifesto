@@ -1,0 +1,109 @@
+:root {
+  --bg: #f5f7fb;
+  --surface: #ffffff;
+  --text: #152232;
+  --muted: #4d5f73;
+  --accent: #0f5cc0;
+  --border: #dbe3ec;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+.wrapper {
+  width: min(960px, 92%);
+  margin: 0 auto;
+}
+
+.site-header,
+.site-footer {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  border-bottom: 0;
+  margin-top: 3rem;
+  padding: 1rem 0;
+}
+
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.site-title {
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.site-nav a:hover,
+.post-link:hover {
+  color: var(--accent);
+}
+
+main.wrapper {
+  margin-top: 2rem;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+.home-intro {
+  margin-bottom: 2rem;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.post-link {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.post-meta {
+  color: var(--muted);
+  margin: 0.35rem 0;
+  font-size: 0.95rem;
+}
+
+.post,
+.page {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  padding: 1.5rem;
+}

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<section class="home-intro">
+  <h1>{{ page.title | default: site.title }}</h1>
+  {% if site.description %}
+    <p>{{ site.description }}</p>
+  {% endif %}
+</section>
+
+<section>
+  <h2>Articles recents</h2>
+  {% if site.posts.size > 0 %}
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <p class="post-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+          </p>
+          {% if post.excerpt %}
+            <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>Aucun article pour le moment.</p>
+  {% endif %}
+</section>
