@@ -1,6 +1,7 @@
 ---
 title: Manifestos
 permalink: /manifestos/
+lang: fr
 ---
 
 Liste des manifestes publies.

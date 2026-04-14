@@ -1,6 +1,7 @@
 ---
 title: A propos
 permalink: /a-propos/
+lang: fr
 ---
 
 Bienvenue sur ce blog Jekyll.

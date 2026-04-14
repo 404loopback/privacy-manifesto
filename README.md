@@ -3,6 +3,7 @@
 Blog Jekyll pour GitHub Pages avec le theme `jekyll-theme-console`.
 
 Theme utilise: `https://github.com/b2a3e8/jekyll-theme-console`
+Plugin i18n utilise: `https://github.com/untra/polyglot`
 
 ## Structure
 
@@ -24,14 +25,28 @@ Le site est ensuite disponible sur `http://127.0.0.1:4000/privacy-manifesto/`.
 
 ## Config theme
 
-La configuration du theme est dans `_config.yml` :
+La configuration du theme est dans `_config.yml`:
 
 - `remote_theme: b2a3e8/jekyll-theme-console`
-- `plugins: [jekyll-remote-theme, jekyll-feed]`
+- `plugins: [jekyll-polyglot, jekyll-remote-theme, jekyll-seo-tag, jekyll-feed]`
 - `style: dark` (options du theme: `dark`, `light`, `hacker`)
 - `listen_for_clients_preferred_style: true`
 - `header_manifestos: true` pour afficher les manifestes dans la topbar
 - `header_manifestos_limit: 5` pour limiter le nombre de liens
+
+## Config multilingue (Polyglot)
+
+Configuration active:
+
+- `languages: ["fr", "en"]`
+- `default_lang: "fr"`
+- `parallel_localization: true`
+
+Conventions:
+
+- Ajouter `lang: fr` ou `lang: en` dans le front matter.
+- Pour une traduction, garder le meme `permalink` entre versions.
+- Exemple: `index.md` (fr) et `index-en.md` (en) partagent `permalink: /`.
 
 ## Ajouter un article
 

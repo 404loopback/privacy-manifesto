@@ -1,6 +1,8 @@
 ---
-title: "Manifeste fondateur"
+title: "Mars 2026 - Discord, ou la normalisation silencieuse de la surveillance sociale"
 date: 2026-04-14 21:15:00 +0200
+author: "Inadvertance"
+lang: fr
 ---
 
 # Discord, ou la normalisation silencieuse de la surveillance sociale

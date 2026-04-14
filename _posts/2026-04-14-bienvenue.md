@@ -1,7 +1,8 @@
 ---
 title: "Bienvenue sur le blog"
 date: 2026-04-14 10:00:00 +0200
-author: "Equipe Privacy Manifesto"
+author: "Inadvertance"
+lang: fr
 ---
 
 Premier article de demonstration.
