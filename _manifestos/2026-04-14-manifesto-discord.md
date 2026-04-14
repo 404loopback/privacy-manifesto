@@ -1,7 +1,7 @@
 ---
 title: "Mars 2026 - Discord, ou la normalisation silencieuse de la surveillance sociale"
 date: 2026-04-14 21:30:00 +0200
-permalink: /manifestos/discord-surveillance/
+permalink: /discord-surveillance/
 author: "Inadvertance"
 lang: fr
 ---
@@ -39,8 +39,7 @@ L'absence de monétisation agressive aujourd'hui n'est donc pas une garantie pou
 Chez Discord, la donnée personnelle n'est pas seulement un "sous-produit" technique, c'est un actif qui pèse dans la **valorisation** de la plateforme.  
 Plus une entreprise peut démontrer une base active, des graphes sociaux denses, des habitudes d'usage stables et des signaux comportementaux exploitables, plus elle peut soutenir une promesse de rentabilité future auprès des investisseurs.
 
-Cette logique crée un risque structurel: la pression financière peut encourager des formes de monétisation indirecte des données (partenariats, sous-traitance analytique, segmentation publicitaire future), meme si la vente brute des contenus n'est pas publiquement revendiquée.  
-En parallèle, la concentration massive de données rend plausible une **fuite douteuse** en cas de faille, d'accès abusif ou de compromission d'un prestataire.
+Les rapports institutionnels sur les plateformes numériques montrent que les données des utilisateurs alimentent des modèles de publicité ciblée et peuvent faire l’objet de partages ou d’accès par des tiers[1]
 
 Le point critique n'est donc pas d'affirmer sans preuve une vente explicite "au kilo", mais de reconnaître qu'un tel stock de données crée à la fois:
 
