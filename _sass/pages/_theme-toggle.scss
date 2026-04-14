@@ -1,0 +1,124 @@
+.theme-toggle {
+  margin-top: 1rem;
+  border: 1px solid #bbb;
+  background: transparent;
+  color: inherit;
+  border-radius: 999px;
+  padding: 0.2rem 0.75rem;
+  font-size: 0.75rem;
+  text-transform: lowercase;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus {
+  border-color: #888;
+  outline: none;
+}
+
+html.theme-dark {
+  background: #0f1217;
+  color: #d8dfeb;
+}
+
+html.theme-dark body {
+  background: #0f1217;
+  color: #d8dfeb;
+}
+
+html.theme-dark .cover {
+  background-color: #151a23;
+}
+
+html.theme-dark .post-listing {
+  background-color: #11161d;
+}
+
+html.theme-dark .cover-card,
+html.theme-dark h1 a,
+html.theme-dark h2 a,
+html.theme-dark h3 a,
+html.theme-dark h4 a,
+html.theme-dark h5 a,
+html.theme-dark h6 a,
+html.theme-dark .tag-list .tag-group .tag-item a {
+  color: #d8dfeb;
+}
+
+html.theme-dark a {
+  color: #6ad6ff;
+}
+
+html.theme-dark a:hover,
+html.theme-dark a:focus,
+html.theme-dark .post-title-link:hover,
+html.theme-dark .post-title-link:focus {
+  color: #98e6ff;
+}
+
+html.theme-dark .cover-card .author_name {
+  color: #ff8a99;
+}
+
+html.theme-dark .cover-card .author_job,
+html.theme-dark .nav-list .nav-item a,
+html.theme-dark .social-links ul li a.social-link-item,
+html.theme-dark .post-meta .post-date {
+  color: #b8a6ff;
+}
+
+html.theme-dark .nav-list .nav-item a:hover,
+html.theme-dark .nav-list .nav-item a:focus,
+html.theme-dark .social-links ul li a.social-link-item:hover,
+html.theme-dark .social-links ul li a.social-link-item:focus {
+  color: #d4c8ff;
+}
+
+html.theme-dark .notice,
+html.theme-dark .back-home a {
+  border-color: #313846;
+}
+
+html.theme-dark .post-navigation {
+  background-color: #171d27;
+}
+
+html.theme-dark #post h2,
+html.theme-dark .share-buttons {
+  border-color: #313846;
+}
+
+html.theme-dark thead {
+  border-bottom-color: #313846;
+}
+
+html.theme-dark tfoot {
+  border-top-color: #313846;
+}
+
+html.theme-dark table.bordered > thead > tr,
+html.theme-dark table.bordered > tbody > tr {
+  border-bottom-color: #313846;
+}
+
+html.theme-dark table.striped > tbody > tr:nth-child(odd),
+html.theme-dark table.highlight > tbody > tr:hover {
+  background-color: #1a2130;
+}
+
+html.theme-dark .archive #timeline:before {
+  background: #2a3344;
+}
+
+html.theme-dark ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.15);
+}
+
+html.theme-dark ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+html.theme-dark ::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.2);
+}
