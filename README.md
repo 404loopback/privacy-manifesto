@@ -19,7 +19,7 @@ bundle install
 bundle exec jekyll serve --livereload
 ```
 
-Le site est ensuite disponible sur `http://127.0.0.1:4000`.
+Le site est ensuite disponible sur `http://127.0.0.1:4000/privacy-manifesto/`.
 
 ## Config theme
 

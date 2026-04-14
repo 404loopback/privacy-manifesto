@@ -1,8 +1,8 @@
 title: Privacy Manifesto
 description: >-
   Blog Jekyll minimal et propre, prêt pour GitHub Pages.
-baseurl: ""
-url: ""
+baseurl: "/privacy-manifesto"
+url: "https://404loopback.github.io"
 lang: fr
 timezone: Europe/Paris
 
