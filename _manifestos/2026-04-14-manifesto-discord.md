@@ -34,7 +34,7 @@ Pour Nick Srnicek[^srnicek], l'idée centrale est que la logique des plateformes
 3. pour enfin monétiser
 
 L'absence de monétisation agressive aujourd'hui n'est donc pas une garantie pour demain, au contraire.
-En 2022, Discord réalise environ 445 M$ de chiffre d’affaires pour ~152 M d’utilisateurs actifs mensuels, mais perd encore environ 66 M$ en résultat d’exploitation, ce qui implique des dépenses totales de ~511 M$ et un coût d’environ 3,4 $/utilisateur/an pour seulement 2,9 $ de revenu/ utilisateur/an.
+En 2022, Discord réalise environ 445 M$ de chiffre d'affaires pour ~152 M d'utilisateurs actifs mensuels, mais perd encore environ 66 M$ en résultat d'exploitation, ce qui implique des dépenses totales de ~511 M$ et un coût d'environ 3,4 $/utilisateur/an pour seulement 2,9 $ de revenu/ utilisateur/an[^economics].
 
 En projetant ce ratio à l’ensemble de la base d’utilisateurs, on constate que les dépenses structurelles restent supérieures aux revenus. Cette différence n’est pas absorbée par le modèle économique actuel, mais par les capitaux levés auprès des investisseurs.
 
@@ -42,7 +42,7 @@ Autrement dit, le fonctionnement présent de la plateforme repose en partie sur 
 
 ## I. Les données personnelles comme promesse de rentabilité
 
-L'objectif n’est pas de prétendre que Discord monétise déjà de manière publicitaire l’ensemble de ses interactions, il est de rappeler que l’entreprise a été construite sous forte contrainte de valorisation : en 2021, elle a levé 500 millions de dollars dans une opération la valorisant autour de 15 milliards; en janvier 2026, Reuters rapportait un dépôt confidentiel en vue d’une IPO.[^6] Une telle trajectoire n’implique pas mécaniquement une exploitation abusive des données, mais elle rend structurellement crédible la pression à convertir l’engagement social en revenus soutenables.
+L'objectif n'est pas de prétendre que Discord monétise déjà de manière publicitaire l'ensemble de ses interactions, il est de rappeler que l'entreprise a été construite sous forte contrainte de valorisation : en 2021, elle a levé 500 millions de dollars dans une opération la valorisant autour de 15 milliards; en janvier 2026, Reuters rapportait un dépôt confidentiel en vue d'une IPO[^ipo]. Une telle trajectoire n'implique pas mécaniquement une exploitation abusive des données, mais elle rend structurellement crédible la pression à convertir l'engagement social en revenus soutenables.
 
 Chez Discord, la donnée personnelle n'est pas seulement un "sous-produit" technique, elle participe à la valorisation économique de la plateforme.  
 
@@ -53,7 +53,7 @@ Plus une entreprise peut démontrer :
 - des communautés fortement engagées
 - des signaux comportementaux réguliers
 
-plus elle peut soutenir, devant investisseurs et partenaires, une promesse crédible de rentabilité future.[^1]
+plus elle peut soutenir, devant investisseurs et partenaires, une promesse crédible de rentabilité future[^datacapitalism].
 
 La documentation officielle montre que la plateforme collecte non seulement des contenus, mais aussi des données d’usage, de contexte et de relation : appareils utilisés, adresses IP, événements d’usage, serveurs et salons visités, bots et apps avec lesquels on interagit, rôles, communautés rejointes, et divers signaux d’activité. Même lorsque ces données ne sont pas revendues comme telles, elles constituent un actif stratégique : elles servent à faire fonctionner la plateforme, à la personnaliser, à la modérer, à produire des projections de croissance crédibles et à soutenir une valorisation financière élevée.
 
@@ -71,7 +71,7 @@ Autrement dit : même avant toute exploitation explicite, la donnée est déjà 
 
 Le problème n'est pas seulement la vente ou la fuite de données, c'est aussi la conversion de l'expérience humaine en **matière exploitable**.
 
-[Shoshana Zuboff](https://www.hup.harvard.edu/books/9781610395691) décrit ce basculement : ce que les individus vivent, disent, ressentent ou coordonnent devient une ressource susceptible d’être extraite, modélisée, corrélée et convertie en prédictions.[^2]
+[Shoshana Zuboff](https://www.hup.harvard.edu/books/9781610395691) décrit ce basculement : ce que les individus vivent, disent, ressentent ou coordonnent devient une ressource susceptible d'être extraite, modélisée, corrélée et convertie en prédictions[^zuboff].
 
 Discord concentre précisément ce type de matière. Les échanges qui y circulent sont souvent perçus par les usagers comme informels, spontanés, communautaires, parfois semi-privés. C’est ce qui leur donne une valeur particulière. On y trouve non pas un langage public et policé, mais un langage situé, vivant, contextuel : débats, humour, confidences, habitudes de groupe, conflits, rituels, apprentissages, hiérarchies implicites.
 
@@ -91,7 +91,7 @@ Et l’enjeu dépasse largement le contenu des messages. Les *métadonnées* ell
 - habitudes collectives
 - circulation de l’attention
 
-Même sans lire un mot du contenu, une plateforme peut déjà savoir beaucoup.[^3]: Qui parle à qui, quand, à quelle fréquence, dans quel contexte, avec quels effets de regroupement ou d’isolement. *Ce savoir n’est pas neutre. C’est déjà une forme de pouvoir*[^4].
+Même sans lire un mot du contenu, une plateforme peut déjà savoir beaucoup[^metadata]: Qui parle à qui, quand, à quelle fréquence, dans quel contexte, avec quels effets de regroupement ou d'isolement. *Ce savoir n'est pas neutre. C'est déjà une forme de pouvoir*[^conversational].
 
 Ce problème est loin d'être nouveau, en septembre 2024, la FTC a publié un rapport sur neuf grandes plateformes, dont Discord, concluant que ce secteur pratiquait une surveillance commerciale de grande ampleur, avec collecte extensive, partage large et conservation parfois indéfinie de données[^ftc2024]. Ce rapport ne vise pas Discord isolément, mais il documente le cadre structurel dans lequel s’inscrivent les grandes plateformes sociales.
 
@@ -206,10 +206,23 @@ Reuters rapporte qu'en 2021 Discord a levé 500 millions de dollars, dans une op
 
 7. Nick Srnicek — Platform Capitalism (Polity, 2017)
 
+## Références
 
+[^srnicek]: Nick Srnicek, *Platform Capitalism* (Polity Press, 2017). Srnicek analyse la logique des plateformes numériques et leur modèle économique basé sur l'extraction de données.
 
+[^economics]: En 2022, Discord affichait ~445 M$ de chiffre d'affaires pour ~152 M d'utilisateurs actifs mensuels, mais enregistrait une perte d'exploitation d'environ 66 M$. Voir les rapports financiers publiés dans les dossiers d'IPO confidentiels et les déclarations de Reuters.
 
+[^ipo]: Reuters a rapporté en janvier 2026 qu'un dépôt confidentiel pour une introduction en bourse (IPO) avait été effectué. Voir : https://www.reuters.com/business/chat-platform-discord-confidentially-file-us-ipo-bloomberg-news-reports-2026-01-06/
 
+[^datacapitalism]: Les rapports institutionnels sur les plateformes numériques montrent que les données des utilisateurs alimentent la valorisation de la plateforme auprès des investisseurs et peuvent faire l'objet de partages ou d'accès par des tiers. La trajectoire de valorisation de Discord (15 milliards en 2021) repose partiellement sur des indicateurs comme l'engagement utilisateur et la density des réseaux sociaux.
+
+[^zuboff]: Shoshana Zuboff, *L'Âge du capitalisme de surveillance* (The Age of Surveillance Capitalism), Harvard University Press, 2019. https://www.hup.harvard.edu/books/9781610395691 — Zuboff décrit comment les plateformes transforment l'expérience humaine en matière première exploitable.
+
+[^metadata]: Susan Landau, "Categorizing Uses of Communications Metadata: Systematizing Knowledge and Presenting a Path for Privacy," *Network and Distributed System Security Symposium* (NSPW), 2020. https://www.nspw.org/papers/2020/nspw2020-landau.pdf
+
+[^conversational]: Article ACL 2022 sur la valeur des corpus conversationnels en linguistique computationnelle et IA : https://aclanthology.org/2022.acl-long.385.pdf — Les données conversationnelles informelles sont hautement valorisées pour l'entraînement de modèles de langage naturel.
+
+[^ftc2024]: U.S. Federal Trade Commission, *A Look Behind the Screens: Examining the Data Practices of Social Media and Video Streaming Services*, September 2024. https://www.ftc.gov/system/files/ftc_gov/pdf/Social-Media-6b-Report-9-11-2024.pdf — Discord est explicitement incluse dans cette enquête sur les pratiques de surveillance commerciale des plateformes sociales.
 
 [1]: Les rapports institutionnels sur les plateformes numériques montrent que les données des utilisateurs alimentent des modèles de publicité ciblée et peuvent faire l’objet de partages ou d’accès par des tiers
 
@@ -218,10 +231,6 @@ Reuters rapporte qu'en 2021 Discord a levé 500 millions de dollars, dans une op
 [3]: Selon l'[EDPB](https://www.edpb.europa.eu/), ces métadonnées peuvent être extrêmement révélatrices.
 
 [4]:Les travaux présentés notamment à [ACL](https://aclanthology.org/) et [NeurIPS](https://neurips.cc/) montrent la valeur des données conversationnelles réelles en terme de langage en contexte, d'émotions et de coordination sociale
-
-[^srnicek]: Nick Srnicek, Platform Capitalism (Polity, 2017).
-
-[^ftc2024]: A Look Behind the Screens: Examining the Data Practices of Social Media and Video Streaming Services — FTC, septembre 2024. https://www.ftc.gov/system/files/ftc_gov/pdf/Social-Media-6b-Report-9-11-2024.pdf
 
 [x]: https://discord.com/privacy "Privacy Policy | Discord"
 [x]: https://support.discord.com/hc/en-us/articles/360004027692-Requesting-a-Copy-of-your-Data "Requesting a Copy of your Data – Discord"
