@@ -16,7 +16,7 @@ Le problème n’est donc pas uniquement ce que Discord fait déjà de manière 
 
 ## Intro : Une gratuité trompeuse
 
-Le revenu visible de Discord (principalement **Nitro**) semble insuffisant face aux coûts:
+Le revenu visible de Discord *(principalement **Nitro**)* semble insuffisant face aux coûts:
 - hébergement massif
 - voix/vidéo en temps réel
 - modération à grande échelle
@@ -26,7 +26,7 @@ Le revenu visible de Discord (principalement **Nitro**) semble insuffisant face 
 Cette disproportion impose une question simple : qu’est-ce qui soutient réellement la plateforme ?
 
 La réponse ne se limite pas aux revenus présents. Elle se trouve dans l’investissement, donc dans l’anticipation de revenus futurs. Une entreprise financée par des levées massives de capitaux n’hérite pas seulement d’argent : elle hérite d’une contrainte. 
-Elle doit justifier sa valorisation et produire, tôt ou tard, *un rendement*.
+Elle doit justifier sa valorisation et produire, tôt ou tard, **un rendement**.
 
 Pour Nick Srnicek[^srnicek], l'idée centrale est que la logique des plateformes est souvent séquentielle:
 1. capter les utilisateurs
@@ -82,7 +82,7 @@ Ce type de corpus est stratégiquement précieux[^acl_nlp][^acl_data_requests]. 
 - les formes de coordination collective
 - les signaux implicites d’appartenance ou d’influence
 
-Et l’enjeu dépasse largement le contenu des messages. Les *métadonnées* elles-mêmes sont révélatrices :
+Et l’enjeu dépasse largement le contenu des messages. Les **métadonnées** elles-mêmes sont révélatrices :
 - fréquence d’interaction
 - durée et intensité des échanges
 - temporalité des connexions
@@ -91,7 +91,7 @@ Et l’enjeu dépasse largement le contenu des messages. Les *métadonnées* ell
 - habitudes collectives
 - circulation de l’attention
 
-Même sans lire un mot du contenu, une plateforme peut déjà savoir beaucoup[^metadata]: Qui parle à qui, quand, à quelle fréquence, dans quel contexte, avec quels effets de regroupement ou d'isolement. *Ce savoir n'est pas neutre. C'est déjà une forme de pouvoir*[^conversational][^edpb].
+Même sans lire un mot du contenu, une plateforme peut déjà savoir beaucoup[^metadata]: Qui parle à qui, quand, à quelle fréquence, dans quel contexte, avec quels effets de regroupement ou d'isolement. **Ce savoir n'est pas neutre. C'est déjà une forme de pouvoir**[^conversational][^edpb].
 
 Ce problème est loin d'être nouveau, en septembre 2024, la FTC a publié un rapport sur neuf grandes plateformes, dont Discord, concluant que ce secteur pratiquait une surveillance commerciale de grande ampleur, avec collecte extensive, partage large et conservation parfois indéfinie de données[^ftc2024]. Ce rapport ne vise pas Discord isolément, mais il documente le cadre structurel dans lequel s’inscrivent les grandes plateformes sociales.
 
@@ -116,7 +116,7 @@ Que : “quelles possibilités leur donne la structure, et quelles pressions les
 
 ### IV. Le verrouillage social comme forme de captivité
 
-Le pouvoir de Discord ne vient pas seulement de sa qualité technique. Il vient du *coût de sortie* qu’il impose.
+Le pouvoir de Discord ne vient pas seulement de sa qualité technique. Il vient du **coût de sortie** qu’il impose.
 
 Les usagers ne sont pas simplement abonnés à un service. Ils sont imbriqués dans des communautés. Ils dépendent d’un réseau de serveurs, de salons, d’habitudes, de rôles, d’archives, de routines, de liens affectifs. Quitter Discord ne signifie donc pas simplement changer d’application. Cela signifie souvent :
 - perdre l’accès à un collectif
