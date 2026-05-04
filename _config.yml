@@ -1,8 +1,8 @@
 title: Privacy Manifesto
 description: >-
   Privacy Manifesto.
-baseurl: ""
-url: "https://404loopback.github.io/PRIVACY_MANIFESTO"
+baseurl: "/404PrivacyManifesto"
+url: "https://404loopback.github.io"
 lang: fr
 timezone: Europe/Paris
 
