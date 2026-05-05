@@ -1,3 +1,5 @@
+[![fr](https://img.shields.io/badge/lang-fr-blue.svg)](https://github.com/404loopback/404PrivacyManifesto/blob/fd9827127af808455b61c7e4cbc1ec4dfdaad13e/README.fr.md)
+
 # Privacy Manifesto
 We are living through a silent political shift.
 
