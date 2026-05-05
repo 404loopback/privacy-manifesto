@@ -1,50 +1,50 @@
 # Privacy Manifesto
-Nous vivons une bascule politique silencieuse.
+We are living through a silent political shift.
 
-Chaque clic, chaque trajet, chaque recherche laisse une trace exploitable. Accumulées, ces traces deviennent un instrument de tri, de prédiction et de contrôle. La question n'est plus _« quelles données sont collectées ? »_, mais _« qui gagne du pouvoir grâce à elles, et contre qui ? »_.
+Every click, every trip, every search leaves an exploitable trace. Accumulated together, these traces become an instrument for sorting, prediction, and control. The question is no longer _"what data is being collected?"_, but _"who gains power through it, and at whose expense?"_.
 
-La vie privée n'est pas un luxe individuel. C'est la condition d'une société où l'on peut penser, douter, aimer, s'organiser et contester sans être profilé en permanence.
+Privacy is not an individual luxury. It is the condition for a society where people can think, doubt, love, organize, and dissent without being permanently profiled.
 
-## Ce qui se passe si on ne fait rien
+## What happens if we do nothing
 
-L'inaction ne maintient pas le statu quo : elle l'accélère.
+Inaction does not preserve the status quo: it accelerates it.
 
-- l'anonymat recule, puis disparaît
-- des systèmes automatiques classent les personnes sans recours clair
-- les discriminations se durcissent derrière l'opacité des algorithmes
-- la parole publique devient dépendante d'infrastructures privées
-- des décisions essentielles — emploi, crédit, sécurité, santé — basculent vers des modèles que personne n'a votés
+- anonymity erodes, then disappears
+- automated systems classify people with no clear recourse
+- discrimination hardens behind algorithmic opacity
+- public speech becomes dependent on private infrastructures
+- essential decisions - employment, credit, security, health - shift to models no one voted for
 
-> Ne rien faire, c'est déléguer nos droits à des architectures techniques que nous ne gouvernons pas.
+> Doing nothing means delegating our rights to technical architectures we do not govern.
 
-## L'intention de ce blog
+## This blog's purpose
 
-**`Privacy Manifesto`** existe pour produire une parole nette : politique, technique, documentée.
+**`Privacy Manifesto`** exists to publish a clear voice: political, technical, documented.
 
-Tu trouveras ici des textes qui :
+You will find texts here that:
 
-- nomment les mécanismes de surveillance avec précision
-- relient la technique à ses conséquences sociales et démocratiques
-- prennent des positions claires, pas des constats mous
-- donnent des prises pour agir, seul et en collectif
+- name surveillance mechanisms precisely
+- connect technical design to social and democratic consequences
+- take clear positions, not soft observations
+- provide practical leverage for action, individually and collectively
 
-Ce blog existe pour transformer la lucidité en rapport de force.
+This blog exists to turn lucidity into leverage.
 
-## Par où commencer
+## Where to start
 
-| Pour quoi faire | Où aller |
+| What you need | Where to go |
 | --- | --- |
-| La colonne vertébrale politique | 📜 **Manifestes** |
-| Cas concrets, analyses, points d'appui | 📝 **Billets** |
+| The political backbone | 📜 **Manifestos** |
+| Concrete cases, analysis, strategic footholds | 📝 **Posts** |
 
-Si une lecture ne t'aide pas à mieux comprendre, mieux te protéger ou mieux t'organiser, elle a raté sa cible.
+If a text does not help you understand better, protect yourself better, or organize better, it has missed its target.
 
-La vie privée se défendra à plusieurs, ou pas du tout.
-
----
-
-> *La vie privée se défendra à plusieurs, ou pas du tout.*
+Privacy will be defended together, or not at all.
 
 ---
 
-<sub>Privacy Manifesto · une parole nette sur la surveillance et le pouvoir</sub>
+> *Privacy will be defended together, or not at all.*
+
+---
+
+<sub>Privacy Manifesto · a clear voice on surveillance and power</sub>
