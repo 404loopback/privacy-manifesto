@@ -1,3 +1,4 @@
+[![en](https://img.shields.io/badge/lang-en-yellow.svg)](x)
 # Privacy Manifesto
 Nous vivons une bascule politique silencieuse.
 
