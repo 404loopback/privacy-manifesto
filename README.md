@@ -1,79 +1,50 @@
 # Privacy Manifesto
-## Structure
+Nous vivons une bascule politique silencieuse.
 
-- `_config.yml` : configuration Jekyll
-- `_config.dev.yml` : override local pour le `site.url`
-- `_manifestos/` : collection des manifestes
-- `_posts/` : articles du blog
-- `_sass/`, `css/`, `js/`, `fonts/`, `img/` : assets Leonids
-- `.github/workflows/pages.yml` : pipeline de build/deploiement GitHub Pages
+Chaque clic, chaque trajet, chaque recherche laisse une trace exploitable. Accumulées, ces traces deviennent un instrument de tri, de prédiction et de contrôle. La question n'est plus _« quelles données sont collectées ? »_, mais _« qui gagne du pouvoir grâce à elles, et contre qui ? »_.
 
-## Lancer en local
+La vie privée n'est pas un luxe individuel. C'est la condition d'une société où l'on peut penser, douter, aimer, s'organiser et contester sans être profilé en permanence.
 
-Prerequis : Ruby + Bundler installes.
+## Ce qui se passe si on ne fait rien
 
-```bash
-bundle install
-bundle exec jekyll serve --livereload --config _config.yml,_config.dev.yml
-```
+L'inaction ne maintient pas le statu quo : elle l'accélère.
 
-Le site est ensuite disponible sur `http://127.0.0.1:4000/`.
+- l'anonymat recule, puis disparaît
+- des systèmes automatiques classent les personnes sans recours clair
+- les discriminations se durcissent derrière l'opacité des algorithmes
+- la parole publique devient dépendante d'infrastructures privées
+- des décisions essentielles — emploi, crédit, sécurité, santé — basculent vers des modèles que personne n'a votés
 
-## Config theme
+> Ne rien faire, c'est déléguer nos droits à des architectures techniques que nous ne gouvernons pas.
 
-La configuration du theme est dans `_config.yml`:
+## L'intention de ce blog
 
-- `remote_theme: renyuanz/leonids@leonids-jekyll`
-- `plugins: [jekyll-polyglot, jekyll-remote-theme, jekyll-seo-tag, jekyll-feed]`
-- `owner.*` pour les infos sidebar
-- `header_pages` pour les pages de navigation principales
+**`Privacy Manifesto`** existe pour produire une parole nette : politique, technique, documentée.
 
-## Config multilingue (Polyglot)
+Tu trouveras ici des textes qui :
 
-Configuration active:
+- nomment les mécanismes de surveillance avec précision
+- relient la technique à ses conséquences sociales et démocratiques
+- prennent des positions claires, pas des constats mous
+- donnent des prises pour agir, seul et en collectif
 
-- `languages: ["fr", "en"]`
-- `default_lang: "fr"`
-- `parallel_localization: true`
+Ce blog existe pour transformer la lucidité en rapport de force.
 
-Conventions:
+## Par où commencer
 
-- Ajouter `lang: fr` ou `lang: en` dans le front matter.
-- Pour une traduction, garder le meme `permalink` entre versions.
-- Exemple: `index.md` (fr) et `index-en.md` (en) partagent `permalink: /`.
+| Pour quoi faire | Où aller |
+| --- | --- |
+| La colonne vertébrale politique | 📜 **Manifestes** |
+| Cas concrets, analyses, points d'appui | 📝 **Billets** |
 
-## Ajouter un article
+Si une lecture ne t'aide pas à mieux comprendre, mieux te protéger ou mieux t'organiser, elle a raté sa cible.
 
-Creer un fichier dans `_posts/` au format :
+La vie privée se défendra à plusieurs, ou pas du tout.
 
-`YYYY-MM-DD-mon-article.md`
-
-avec un front matter minimal :
-
-```yaml
 ---
-title: "Titre de l'article"
-date: 2026-04-14 10:00:00 +0200
+
+> *La vie privée se défendra à plusieurs, ou pas du tout.*
+
 ---
-```
 
-## Ajouter un manifeste
-
-Creer un fichier dans `_manifestos/` (par exemple `YYYY-MM-DD-manifeste.md`) avec:
-
-```yaml
----
-title: "Titre du manifeste"
-date: 2026-04-14 21:15:00 +0200
----
-```
-
-## Deploiement GitHub Pages
-
-Le workflow `.github/workflows/pages.yml` deploye automatiquement le site a chaque push sur `main`.
-
-Dans GitHub : `Settings > Pages > Source = GitHub Actions`.
-
-URL de production (project pages) :
-
-`https://404loopback.github.io/404PrivacyManifesto/`
+<sub>Privacy Manifesto · une parole nette sur la surveillance et le pouvoir</sub>
